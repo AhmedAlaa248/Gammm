@@ -1,0 +1,14 @@
+#include "color_change_2d.h"
+
+float4 main( VsOut input ) : COLOR
+{
+    float4 result;
+    float4 texColor = tex2D( g_Texture , input.texcoord );
+    // 体の色
+    result = texColor.xxxw * input.color;
+    // 輪郭線
+    result.xyz += texColor.zzz * input.color.xyz * 0.7;
+    // 固定グレースケールカラー
+    result.xyz += texColor.yyy;
+    return result;
+}

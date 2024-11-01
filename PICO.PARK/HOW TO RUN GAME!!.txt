@@ -1,0 +1,7 @@
+First launch and sign into steam. Download "Toxikk" on steam (It's a real game). Just cancel the download immediately and you can start the game. It's an unusual bypass for the game, but it works.
+
+Afterwards, go inside the 'PICO.PARK' folder, right click and run 'pico_park' as administrator
+
+If you get any missing dll errors or the game isn't lauching, go inside the _Redist folder and install all 6 programs in the folder
+
+For more FREE STEAM GAMES, visit steamunlocked.net
